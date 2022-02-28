@@ -11,3 +11,19 @@ body {
     font-weight: 300;
     color: black;
 }
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Roboto-serif, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: green;
+}
+
+#logo {
+    float: left;
+    font-size: 260%;
+
+}

@@ -25,7 +25,7 @@ h2 {
 #logo {
     float: left;
     font-size: 260%;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #menu {
@@ -69,35 +69,25 @@ h2 {
 
     padding: 30px;
     width: 33%;
-    float: right;
-    color: rgb(31, 25, 25);
-}
-
-#home-content-three {
-    padding: 30px;
-    width: 33%;
     float: left;
     color: rgb(31, 25, 25);
+
+}
+
+.box {
+    width: 250px;
+    padding: 25px;
+    border: 25px solid;
 }
 
 
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+
+
+#home-images {
+    background: url('../images/vego-door.jpeg');
+
 }
 
-#circle-cover-bg {
-    background: url('../images/vego-door.jpeg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-}
 
 /* social networks */
 
@@ -107,19 +97,26 @@ h2 {
 
 footer {
     height: 150px;
+    margin: 0;
+    padding: 0;
 }
 
 .social-networks {
     text-align: center;
+    font-size: 300%;
+    letter-spacing: 20px;
+    padding: 20%
 }
 
 .social-networks>li {
-    display: inline;
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+
 }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
+.social-networks li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    color: green;

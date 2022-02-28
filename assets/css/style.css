@@ -26,7 +26,6 @@ h2 {
     float: left;
     font-size: 260%;
     margin-left: 30px;
-    padding-top: 20px;
 }
 
 #menu {
@@ -38,5 +37,19 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    padding-top: 20px;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    max-width: 100%;
+    background: url('../images/veg1.png') no-repeat;
+    background-size: 100%;
 }

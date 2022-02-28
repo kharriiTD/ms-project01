@@ -25,5 +25,18 @@ h2 {
 #logo {
     float: left;
     font-size: 260%;
+    margin-left: 30px;
+    padding-top: 20px;
+}
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    padding-top: 20px;
 }

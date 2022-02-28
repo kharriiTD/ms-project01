@@ -54,16 +54,72 @@ h2 {
 }
 
 /* info */
-
-#home-content-two {
-    text-align: center;
-    float: center;
+#info {
+    height: 600;
 }
 
-#home-content-images {
-    background: url('../images/vego-door.jpeg') no-repeat;
-    height: min-content;
-    padding-bottom: 200px;
+#home-content {
+    padding: 20px;
+    width: 100%;
     text-align: center;
+    color: rgb(31, 25, 25);
+}
 
+#home-content-two {
+
+    padding: 30px;
+    width: 33%;
+    float: right;
+    color: rgb(31, 25, 25);
+}
+
+#home-content-three {
+    padding: 30px;
+    width: 33%;
+    float: left;
+    color: rgb(31, 25, 25);
+}
+
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/vego-door.jpeg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+}
+
+/* social networks */
+
+.social networks {}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
